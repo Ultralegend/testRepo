@@ -6,4 +6,8 @@ def getFact(x):
     else:
         return x * getFact(x - 1)
 
+def isOdd(x):
+    return x % 2 != 0
+
 print(getFact(5))
+print(isOdd(6))
