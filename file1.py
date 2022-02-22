@@ -12,12 +12,7 @@ def isOdd(x):
 def isEven(x):
     return not isOdd(x)
 
-def arrayToInt(array):
-    nArray = []
-
-    for i in array: nArray.append(int(i))
-
-    return nArray
+def arrayToInt(array): return [int(i) for i in array]
 
 print(getFact(5))
 print(isOdd(6))
