@@ -10,7 +10,7 @@ def isOdd(x):
     return x % 2 != 0
 
 def isEven(x):
-    return x % 2 == 0
+    return not isOdd(x)
 
 print(getFact(5))
 print(isOdd(6))
