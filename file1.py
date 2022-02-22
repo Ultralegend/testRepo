@@ -9,5 +9,9 @@ def getFact(x):
 def isOdd(x):
     return x % 2 != 0
 
+def isEven(x):
+    return not isOdd(x)
+
 print(getFact(5))
 print(isOdd(6))
+print(isEven(6))
