@@ -24,3 +24,5 @@ print(isEven(6))
 tArray = ["1", "2", "3"]
 print(tArray)
 print(arrayToInt(tArray))
+
+print(addTwo(2,3))
