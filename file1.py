@@ -18,3 +18,6 @@ print(getFact(5))
 print(isOdd(6))
 print(isEven(6))
 
+tArray = ["1", "2", "3"]
+print(tArray)
+print(arrayToInt(tArray))
