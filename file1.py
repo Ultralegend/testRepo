@@ -12,6 +12,9 @@ def isOdd(x):
 def isEven(x):
     return not isOdd(x)
 
+def addTwo(x, y):
+    return x + y
+
 def arrayToInt(array): return [int(i) for i in array]
 
 print(getFact(5))
@@ -21,3 +24,5 @@ print(isEven(6))
 tArray = ["1", "2", "3"]
 print(tArray)
 print(arrayToInt(tArray))
+
+print(addTwo(2,3))
