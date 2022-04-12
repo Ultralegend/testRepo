@@ -5,5 +5,8 @@ def printX(x):
     for i in range(0, x):
         print(i)
 
+def hello():
+    print("Hello")
+
 printX(5)
-print("Hello!")
+hello()
