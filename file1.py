@@ -18,8 +18,10 @@ def addTwo(x, y):
 def arrayToInt(array): return [int(i) for i in array]
 
 print(getFact(5))
-print(isOdd(6))
-print(isOdd(6))
+
+for i in range(10):
+    print(i)
+
 
 tArray = ["1", "2", "3"]
 print(tArray)
