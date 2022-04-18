@@ -6,4 +6,4 @@ def printX(x):
         print(i)
 
 printX(5)
-print("Hello! World!")
+print("Hello!")
